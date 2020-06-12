@@ -2,3 +2,30 @@
   "name": "TelegramChatter",
   "description": "TelegramChatter Bot by THUNDER"
   }
+{
+  "name": "TelegramChatter",
+  "description": "Telegram Chat Bot",
+  "logo": "https://i.imgur.com/ZLi4nDP.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+	"chat",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/thunder-stock/TelegramChatter",
+  "website":   "https://github.com/thunder-stock/TelegramChatter",
+  "success_url": "https://t.me/BotProjects0",
+  "stack": "container",
+  "env": {
+    
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  },{
+    "url": "heroku-community/apt"
+    }]
+}
