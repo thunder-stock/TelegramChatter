@@ -1,36 +1,5 @@
 {
   "name": "TelegramChatter",
-  "description": "TelegramChatter Bot by THUNDER"
-  }
-{
-  "name": "TelegramChatter",
-  "description": "Telegram Chat Bot",
-  "logo": "https://i.imgur.com/ZLi4nDP.jpg",
-  "keywords": [
-    "telegram",
-    "userbot",
-	"chat",
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "https://github.com/thunder-stock/TelegramChatter",
-  "website":   "https://github.com/thunder-stock/TelegramChatter",
-  "success_url": "https://t.me/BotProjects0",
-  "stack": "container",
-  "env": {
-    
-  },
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  },{
-    "url": "heroku-community/apt"
-    }]
-}
-{
-  "name": "TelegramChatter",
   "description": "TelegramChatter",
   "keywords": [
     "productivity",
@@ -43,9 +12,7 @@
   "success_url": "/README.md",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {}
-  ],
+  }],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
@@ -53,11 +20,4 @@
   },{
     "url": "heroku-community/apt"
     }],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
-      }
-    }
-  }
 }
