@@ -12,7 +12,7 @@
   "success_url": "/README.md",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
-  }],
+  },
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
