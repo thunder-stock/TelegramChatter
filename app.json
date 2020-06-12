@@ -29,3 +29,35 @@
     "url": "heroku-community/apt"
     }]
 }
+{
+  "name": "TelegramChatter",
+  "description": "TelegramChatter",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "website": "https://github.com/thunder-stock/TelegramChatter",
+  "repository": "https://github.com/thunder-stock/TelegramChatter",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/README.md",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
+  "env": {}
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  },{
+    "url": "heroku-community/apt"
+    }],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
+}
